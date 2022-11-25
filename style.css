@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+
+body {
+    font-family: sans-serif;
+    max-width: 100em;
+    word-spacing: 2px;
+    word-wrap: 2px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    max-width: 100em;
+    height: 4em;
+    background-color: green;
+}
+
+header .logo {
+    width: 50em;
+    height: 4em;
+    background-color: rgb(51, 181, 188);
+}
+header .logo img{
+    margin:10px 5vw;
+    width: 11vw;
+    height:7vh;
+    background-color: rgb(51, 181, 188);
+}
+
+header nav .flex {
+    background-color: rgb(51, 181, 188);
+    width: 50em;
+    height: 4em
+}
+header nav .flex li .line{
+width:5vw;
+z-index:999;
+height:1vh;
+background-color: red;
+}
+
+header nav .flex ul {
+    margin: 1em 2em 1em 2em;
+    display: inline-flex;
+    list-style: none;
+}
+
+header nav .flex ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 2em 2em 2em 2em;
+    color: white;
+}
+
+.background {
+    margin-top: 0;
+    background-image: url('images/background.png');
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    height: 45em;
+}
+
+section .card {
+    padding: 5em;
+    margin: 0em 28vw 0em 28vw;
+    width: 40vw;
+    height: 20em;
+    background-color: transparent;
+}
+
+section .card h1 {
+    margin: 12px 0px 20px 0px;
+    padding:0px 0 0 90px;
+    font-size: 3.5em;
+    font-weight: 800;
+    color: white;
+}
+
+section .card h2 {
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: white;
+}
+
+section .card button {
+    margin:0px 0px 0px 180px;
+    width: 8em;
+    height: 2.8em;
+    font-size: 20px;
+    color: white;
+    border: 3px solid rgb(51, 181, 188);
+    border-radius: 75px;
+    background-color: transparent;
+}
+
+section .float {
+    display: flex;
+    margin: 0 5em;
+    width: 84em;
+    height: 8em;
+    background-color: white;
+    border-radius: 70em;
+}
+
+section .float button {
+    margin-top: 2.5em;
+    margin-left: 4em;
+    background-color: white;
+    width: 5em;
+    height: 5em;
+    border: 2px solid rgb(51, 181, 188);
+    border-radius: 5em;
+}
+
+section .float button i {
+    font-size: 2em;
+    color: rgb(51, 181, 188);
+}
+
+section .float a {
+    margin-top: 2em;
+    padding: 2em 3em 2em 0.5em;
+    color: grey;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+section .float .AVG {
+    margin-top: 2.8em;
+    width: 12em;
+    height: 5em;
+
+}
+section .top{
+    max-width:100vw;
+    height:23vh;
+}
+section .top h1{
+    padding:3vh 50vw 0 5vw;
+    color: rgb(18, 18, 18);
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 800;
+}
+section .top p{
+    padding:2vh 50vw 0.8vh 5vw;
+    color: grey;
+    margin: 2px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.media {
+    background-color: rgb(255, 255, 255);
+    max-width: 100vw;
+    height: 75em;
+    display: flex;
+}
+
+section .long {
+    width: 60vw;
+    height: 75em;
+    background-color: rgb(255, 255, 255);
+}
+
+section .long .card1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: inline-flex;
+    margin: 2em 1em 0em 2em;
+    width: 55vw;
+    height: 20em;
+    border-radius: 2em;
+    background-color: transparent;
+    /* border:2px solid black; */
+}
+
+section .long .card1 img {
+    width: 20vw;
+    height: 20em;
+    border-radius: 2em;
+}
+
+section .long .card1 .text {
+    width: 35vw;
+    margin-left: 10px;
+    height: 20em;
+    /* border:2px solid black; */
+}
+
+section .long .card1 .upper {
+    display: flex;
+    width: 35vw;
+    /* border: 2px solid red; */
+    height: 5em;
+    background-color: transparent;
+}
+
+section .long .card1 .upper .left {
+    width: 15vw;
+    height: 5em;
+    background-color: transparent;
+}
+
+section .long .card1 .left h1 {
+    color: black;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+section .long .card1 .upper .left p {
+    color: grey;
+    margin: 2px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+section .long .card1 .upper .right {
+    width: 19vw;
+    height: 5em;
+    background-color: transparent;
+}
+
+section .long .card1 .upper .right button {
+    width: 15vw;
+    height: 4em;
+    float: right;
+    margin: 5px 0em 5px 4em;
+    background-color: rgb(51, 181, 188);
+    border-radius: 70px;
+    border: none;
+}
+
+section .long .card1 .upper .right button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section .long .card1 .middle {
+    padding: 10px 30px 10 10;
+    width: 35vw;
+    height: 4em;
+    /* border: 2px solid black; */
+    background-color: transparent;
+}
+
+section .long .card1 .middle p {
+    font-size: 15px;
+    margin-right: 20px;
+    color: grey;
+    font-weight: 500;
+}
+
+section .long .card1 .bottom {
+    width: 35vw;
+    height: 5vh;
+    /* border:2px solid green; */
+}
+
+section .long .card1 .bottom a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    margin: 0 4vw 0 2px;
+    font-weight: 500;
+}
+
+section .long .card1 .bottom a i {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+section .long .card1 .text button {
+    width: 10vw;
+    height: 10vh;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: transparent;
+    color: rgb(51, 181, 188);
+    border: none;
+    margin: 1.5vh 0vh 0vh 0vw;
+}
+
+
+section .short {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 2em 2em 0em 2em;
+    /* border: 2px solid black; */
+    width: 34em;
+    border-radius: 2em;
+    height: 45em;
+    background-color: rgb(255, 255, 255);
+}
+
+section .short img {
+    width: 34em;
+    height: 45em;
+    border-radius: 2em;
+}
+
+section .long .slide {
+    padding-top: 3vh;
+    padding-left: 20vw;
+    width: 35vw;
+    height: 8vh;
+    /* border:2px solid black; */
+}
+
+section .long .slide button {
+    border-radius: 70px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 2.5vw;
+    height: 5vh;
+    border: 1px solid rgb(51, 181, 188);
+}
+
+section .long .slide button a,
+i {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(51, 181, 188);
+    ;
+}
+
+section .footer {
+    display: inline-flex;
+    background-color: rgb(51, 181, 188, 0.7) ;
+    max-width: 98.7vw;
+    height: 35vh;
+}
+
+section .footer div {
+    margin: 5vw 4vw;
+    width: 70vw;
+    height: 20vh;
+    /* border: 2px solid black; */
+}
+
+section .footer div h1 {
+    font-size: 45px;
+    margin: 20px 20px 10px 10px;
+    padding: 0;
+    font-weight: 800;
+    color: white;
+}
+
+section .footer div h4 {
+    font-size: 18px;
+    margin: 0 0 10px 10px;
+    padding: 0;
+    font-weight: 500;
+    color: white;
+}
+
+section .footer button {
+    width: 10vw;
+    margin: 9vw 6vw;
+    background-color: transparent;
+    height: 5vh;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+section .footer button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+section .foot {
+    margin:0;
+    max-width: 98.7vw;
+    height: 15vh;
+    /* border: 2px solid black; */
+    background-color: rgb(51, 181, 188);
+}
+section .foot h1 {
+    padding:25px 0px 0px 500px;
+    margin-top:0px;
+    font-size:18px;
+    font-weight: 800;
+    color:white;
+}
+section .foot h4 {
+    padding:0px 0px 0px 650px;
+    margin:0px;
+    font-size:18px;
+    font-weight: 800;
+    color:white;
+}
